@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, Search, MapPin } from 'lucide-react';
+import video1 from '../videos/video1.mp4';
 
 const Hero = () => {
   return (
@@ -9,7 +10,7 @@ const Hero = () => {
         loop
         muted
         className="absolute inset-0 w-full h-full object-cover"
-        src="/src/videos/video1.mp4"
+        src={video1}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/60" />
       <div className="relative h-full flex items-center">
