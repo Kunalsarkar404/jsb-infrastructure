@@ -1,5 +1,6 @@
 import React from 'react';
 import { Home, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import logo from '../videos/jsb-logo.png';
 
 const Footer = () => {
   return (
@@ -8,8 +9,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
-              <Home className="h-8 w-8 text-blue-500" />
-              <span className="ml-2 text-xl font-bold">JSB Real Estate</span>
+            <img className="h-8 w-8 text-blue-600" src={logo} />
+              <span className="ml-2 text-xl font-bold">JSB Infrastructures</span>
             </div>
             <p className="text-gray-400 mb-4">
               Your trusted partner in finding the perfect property. With years of experience and dedication, we help you make the best real estate decisions.
